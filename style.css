@@ -158,6 +158,7 @@ button{
 }
 
 .slideDown {
+	text-align: center;
 	-webkit-transform: translateY(1rem) !important;
 	        transform: translateY(1rem) !important;
 	opacity: 0 !important;
