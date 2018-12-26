@@ -434,6 +434,13 @@ button{
 .mssgme-card-messengers-list > li.telegram > a > span::before {
 	content: 'Telegram';
 }
+.mssgme-card-messengers-list > li.form {
+	background-color: #FFAB05;
+}
+
+.mssgme-card-messengers-list > li.form > a > span::before {
+	content: 'form';
+}
 
 .mssgme-card-messengers-list > li.vk {
 	background-color: #5b88bd;
