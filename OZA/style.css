@@ -869,7 +869,18 @@ button{
 	.card-footer-logo-container > a:hover {
 		background-color: #f3f3f3;
 	}
-
+/* Реклама */
+.ads
+{margin:29px 0;
+	text-align:center;-webkit-transition-delay:.4s!important;-o-transition-delay:.4s!important;transition-delay:.4s!important}@media (max-width:767px){.ads
+{margin:29px 0 70px}}
+.ads .logo
+{-webkit-transform:translateY(100px);-ms-transform:translateY(100px);transform:translateY(100px);opacity:0}.ads
+.rass
+{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);-webkit-transition:opacity 1s ease,-webkit-transform 1s ease;transition:opacity 1s ease,-webkit-transform 1s ease;-o-transition:transform 1s ease,opacity 1s ease;transition:transform 1s ease,opacity 1s ease;transition:transform 1s ease,opacity 1s ease,-webkit-transform 1s ease}.ads
+>a{display:inline-block;padding:11px 20px;border-radius:100px;-webkit-transition:background-color .3s ease;-o-transition:background-color .3s ease;transition:background-color .3s ease}@media (min-width:1025px){.ads
+>a:hover{background-color:#f3f3f3}}.ads
+>a>img{display:block;height:20px;width:auto}
 
 	/* Edge hack */
 
