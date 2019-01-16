@@ -460,10 +460,7 @@ button{
 .mssgme-card-messengers-list > li.viber > a > span::before {
 	content: 'Viber';
 }
-.mssgme-card-messengers-list > li.btn {
-	background-image: url(../img/btn_animation.png);
-    background-position: 0 -151px;
-    background-repeat: no-repeat;    
+.mssgme-card-messengers-list > li.btn { 
 	background-image: url(img/insta.jpg);
 }
 
