@@ -1,0 +1,56 @@
+
+/* Стили полей ввода */
+.textbox{
+  height:.4rem;
+  width:100%;
+  border-radius:9px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size:.14rem; 
+  padding:10px;
+  margin-bottom:3px;  
+}
+.message:focus,
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+/* Стили текстового поля */
+.message{
+    background: rgba(255, 255, 255, 0.4); 
+    width:100%;
+    height: 120px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    display:block;
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+/* Базовые стили кнопки */
+.button{
+  height:.4rem;
+  width:100%;
+  border-radius:9px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:#2f3542;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;  
+  font-weight:400;
+  font-size: .16rem;
+  transition:background .4s;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button:hover{
+  background:#000000;
+}
