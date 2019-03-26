@@ -65,8 +65,8 @@
 					</div>
 					<!-- Count filled buttons in loop and add class to list (messengers-count-3 for example) -->
 			<form action="https://gimbarr540.000webhostapp.com/send_permanent.php" method="post">
-		<input type="name" name="name" placeholder="Введите имя" class="textbox"><br>
-		<input type="tel" name="phone" placeholder="Введите телефон" class="textbox"><br>
+		<input type="name" name="name" placeholder="Введите имя" class="textbox" required=""><br>
+		<input id="phone" type="tel" name="phone" placeholder="Введите телефон" class="textbox" required=""><br>
 		<input type="submit" class="button" value="Записаться">
 	</form>
 			<!-- Реклама -->
@@ -181,7 +181,6 @@
 			if ('console' in window) console.error(e);
 		}
 	</script>
-</script>
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/jquery.maskedinput.js"></script>
 	<script src="../js/jquery.maskedinput.min.js"></script>
